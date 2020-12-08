@@ -1,0 +1,43 @@
+/*tabela*/
+table#tabelaspec{
+	border: 1px solid #606060;
+	border-spacing:0px;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+table#tabelaspec td{
+    border: 1px solid #606060;
+	padding:10px;
+	text-align:center;	
+}
+table#tabelaspec td.ce{
+  background: #606060 ;
+  border-top: 1px solid #a5a5a5;
+  border-bottom: 0.2px solid #a5a5a5;
+  vertical-align:center;
+	
+}
+table#tabelaspec td.cd{
+background-color:#000000;
+color:#606060;
+
+	
+}
+
+table#tabelaspec td.cd:hover{
+background-color:#606060;
+color:#cecece;
+transition:background-color 4s;	
+}
+table#tabelaspec caption{
+	color:888888;
+	font-size: 13pt;
+	font-weight:bolder;
+}
+table#tabelaspec caption span {
+	display:block;
+	float:right;
+	color:#000000;
+	font-size:8pt;
+}
